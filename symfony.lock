@@ -161,6 +161,7 @@
             "./templates/base.html.twig"
         ]
     },
+<<<<<<< HEAD
     "symfony/validator": {
         "version": "5.4",
         "recipe": {
@@ -194,5 +195,9 @@
     },
     "symfonycasts/verify-email-bundle": {
         "version": "v1.14.0"
+=======
+    "twig/extra-bundle": {
+        "version": "v3.7.1"
+>>>>>>> f3b611d4b729cc4b2e3756936460d662c463cb94
     }
 }

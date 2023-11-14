@@ -8,6 +8,10 @@ return [
     Symfony\Bundle\SecurityBundle\SecurityBundle::class => ['all' => true],
     Lexik\Bundle\JWTAuthenticationBundle\LexikJWTAuthenticationBundle::class => ['all' => true],
     Symfony\Bundle\TwigBundle\TwigBundle::class => ['all' => true],
+<<<<<<< HEAD
     SymfonyCasts\Bundle\VerifyEmail\SymfonyCastsVerifyEmailBundle::class => ['all' => true],
     Symfony\WebpackEncoreBundle\WebpackEncoreBundle::class => ['all' => true],
+=======
+    Twig\Extra\TwigExtraBundle\TwigExtraBundle::class => ['all' => true],
+>>>>>>> f3b611d4b729cc4b2e3756936460d662c463cb94
 ];
