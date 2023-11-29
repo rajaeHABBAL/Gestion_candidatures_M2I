@@ -18,9 +18,9 @@ class ContactType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options): void
     {
         $builder
-            ->add('username',TextType::class,[
+            ->add('nom',TextType::class,[
                 'attr'=>[
-                    'class'=>'form-control form-control-user',
+                    'class'=>'form-control',
                     'minlength'=>'2',
                     'maxlength'=>'50',
                     'placeholder' => 'Entrez un nom',
@@ -33,7 +33,7 @@ class ContactType extends AbstractType
             ])
             ->add('email',EmailType::class,[
                 'attr'=>[
-                    'class'=>'form-control form-control-user',
+                    'class'=>'form-control',
                     'minlength'=>'2',
                     'maxlength'=>'50',
                     'placeholder' => 'Entrez un email',
@@ -49,7 +49,7 @@ class ContactType extends AbstractType
             ])
             ->add('sujet',TextType::class,[
                 'attr'=>[
-                    'class'=>'form-control form-control-user',
+                    'class'=>'form-control',
                     'minlength'=>'2',
                     'maxlength'=>'100',
                     'placeholder' => 'Entrez un nom',
@@ -62,7 +62,7 @@ class ContactType extends AbstractType
             ])
             ->add('message',TextareaType::class,[
                 'attr'=>[
-                    'class'=>'form-control form-control-user',
+                    'class'=>'form-control',
                     'placeholder' => 'Entrez un nom',
                 ],
                 'label'=>'Message',
@@ -76,7 +76,7 @@ class ContactType extends AbstractType
                     'class'=>'btn btn-primary btn-user btn-block mt-4',
                     
                 ],
-                'label'=>'Envoyer',
+                'label'=>'Submit',
                 
             ])
         ;
